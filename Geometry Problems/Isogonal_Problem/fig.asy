@@ -86,7 +86,7 @@ draw(J--Q);
 
 draw(Label("$\beta$", Relative(.05)), x);
 //clipdraw(y, linewidth(.3));
-draw(S_--C);
+//draw(S_--C);
 
 dot("$A$", A, NW);
 dot("$B$", B, SW);

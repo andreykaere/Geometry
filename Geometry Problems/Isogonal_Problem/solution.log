@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2019.3.30)  25 APR 2020 13:23
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2019.3.30)  25 APR 2020 13:50
  restricted \write18 enabled.
 **solution.tex
 (./solution.tex
@@ -1025,7 +1025,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.211 seconds)
+luaotfload | main : initialization completed in 0.067 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -2008,14 +2008,14 @@ Here is how much of LuaTeX's memory you used:
  394 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 4 attribute, 53 glue_spec, 4 attrib
 ute_list, 1 write nodes
-   avail lists: 1:2,2:184,3:43,4:556,5:167,6:1504,7:75,8:2,9:41,10:246
+   avail lists: 1:2,2:184,3:43,4:557,5:167,6:1530,7:75,8:2,9:41,10:251
  47046 multiletter control sequences out of 65536+600000
- 62 fonts using 12214271 bytes
+ 62 fonts using 12214299 bytes
  62i,6n,77p,862b,344s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/share
 /texlive/texmf-dist/fonts/opentype/public/cm-unicode/cmunrm.otf><</usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb>
-Output written on solution.pdf (2 pages, 39285 bytes).
+Output written on solution.pdf (2 pages, 39320 bytes).
 
 PDF statistics: 48 PDF objects out of 1000 (max. 8388607)
  32 compressed objects within 1 object stream
