@@ -14,7 +14,7 @@ cd config_files
 ./import_styles.py
 ./import_scripts.py
 
-mkdir ../book/config_files
+mkdir -p ../book/config_files
 
 cp -R css ../book/config_files
 cp -R js  ../book/config_files
@@ -25,17 +25,23 @@ cp -R theme/css/* ../book/
 cp -R theme/* ../book/
 
 cd ..
+
+cd book
+echo "geominpix.cf" > CNAME
+
+cd ..
+
+# echo $PWD
+
 #cd ~Desktop/Geometry\ Book
 #rm -rf !(".git")
-rm -rf ~/Desktop/Geometry-Book/*
+# rm -rf ~/Desktop/Geometry-Book/*
 #cd ~/Geometry/Geometry\ Book/
 
-cp -R book/*  ~/Desktop/Geometry-Book/
+# cp -R book/*  ~/Desktop/Geometry-Book/
 
 case $1 in 
 	-o | --open)
-        
-		cd ../book
-        firefox index.html #run index.html to view changes
+		cd book && $BROWSER index.html &> /dev/null #run index.html to view changes
         ;;
 esac

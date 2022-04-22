@@ -65,15 +65,27 @@ function changeAllFigures(new_theme) {
 
 }
 
-
-
-
-function main() {
-    let themePopup = document.getElementById('theme-list');
+function setInitialTheme() {
 	let theme = window.localStorage.getItem('mdbook-theme');
+
+    if (theme == null) {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            // dark mode
+            theme = 'ayu';
+        } else {
+            theme = 'light';
+        }
+    }
     
 	changeAllFigures(theme);
 	changeAllIcons(theme);
+}
+
+
+function main() {
+    setInitialTheme();
+
+    let themePopup = document.getElementById('theme-list');
 
 	themePopup.addEventListener('click', function (e) {
 		let new_theme = e.target.id || e.target.parentElement.id;
