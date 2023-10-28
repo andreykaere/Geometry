@@ -1,0 +1,76 @@
+% \documentclass[a4paper,12pt]{article}
+
+\usepackage[a4paper, left=0.6in, right=0.6in, top=0.85in, bottom=0.85in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\usepackage{fontspec}
+\usepackage[russian]{babel}
+%\usepackage{polyglossia}
+%\setdefaultlanguage[spelling=modern]{russian}
+%\setotherlanguage{english}
+\setmainfont{CMU Serif}
+\setsansfont{CMU Sans Serif}
+\setmonofont{CMU Typewriter Text}
+
+\usepackage{amsmath, amssymb, amsthm, mathtools, thmtools}
+
+\newcommand\N{\ensuremath{\mathbb{N}}}
+\newcommand\R{\ensuremath{\mathbb{R}}}
+\newcommand\Z{\ensuremath{\mathbb{Z}}}
+\renewcommand\O{\ensuremath{\varnothing}}
+\newcommand\Q{\ensuremath{\mathbb{Q}}}
+\newcommand\C{\ensuremath{\mathbb{C}}}
+
+
+\usepackage{mathdots}
+
+\usepackage{enumitem}
+\usepackage{environ}
+
+\NewEnviron{pArray}[1]
+{
+\left(\begin{array}{#1}
+\BODY
+\end{array}\right)
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+% \def\@title{}%
+% \renewcommand{\title}[1]{%
+%     \textsf{#1}
+% }
+
+
+\def\@title{}%
+\renewcommand{\title}[1]{%
+    \def\@title{\textsf{#1}}%
+}%
+
+
+\fancyhead[L]{\fontsize{18}{20} \@title}
+
+
+% figure support
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+
+\newcommand{\incfig}[2][1]{%
+    \def\svgwidth{#1\columnwidth}
+    \import{./figures/}{#2.pdf_tex}
+}
+
+
+% Disable page numbering
+\pagenumbering{gobble}
+
+
+\newenvironment{problems}{%
+  \begin{enumerate}[leftmargin=1cm, label={\textbf{\arabic*.}}, itemsep=0.3cm]%
+}{%
+  \end{enumerate}%
+}
+
