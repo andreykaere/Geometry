@@ -1,18 +1,15 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.9.6)  28 OCT 2023 12:24
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.9.6)  4 NOV 2023 23:46
  restricted system commands enabled.
+ file:line:error style messages enabled.
 **problem1.tex
 (./problem1.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 Lua module: luaotfload 2023-08-31 3.26 Lua based OpenType font support
 Lua module: lualibs 2023-07-13 2.76 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended c
-ollection.
-luaotfload | conf : Root cache directory is "/home/andrey/local/texlive/2023/tex
-mf-var/luatex-cache/generic/names".
-luaotfload | init : Loading fontloader "fontloader-2023-08-19.lua" from kpse-res
-olved path "/home/andrey/local/texlive/2023/texmf-dist/tex/luatex/luaotfload/fon
-tloader-2023-08-19.lua".
+Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended collection.
+luaotfload | conf : Root cache directory is "/home/andrey/local/texlive/2023/texmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-08-19.lua" from kpse-resolved path "/home/andrey/local/texlive/2023/texmf-dist/tex/luatex/luaotfload/fontloader-2023-08-19.lua".
 Lua-only attribute luaotfload@noligature = 1
 luaotfload | init : Context OpenType loader version 3.133
 Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
@@ -20,8 +17,7 @@ Inserting `luaotfload.node_processor' in `hpack_filter'.
 Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
 Inserting `luaotfload.define_font' in `define_font'.
 Lua-only attribute luaotfload_color_attribute = 2
-luaotfload | conf : Root cache directory is "/home/andrey/local/texlive/2023/tex
-mf-var/luatex-cache/generic/names".
+luaotfload | conf : Root cache directory is "/home/andrey/local/texlive/2023/texmf-var/luatex-cache/generic/names".
 Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
 Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
 Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
@@ -39,14 +35,11 @@ Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
 Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
 Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
-Inserting `tracingstacklevels' in `input_level_string'. (/home/andrey/local/tex
-live/2023/texmf-dist/tex/latex/extsizes/extarticle.cls
+Inserting `tracingstacklevels' in `input_level_string'. (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/extsizes/extarticle.cls
 Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
-luaotfload | db : Font names database loaded from /home/andrey/local/texlive/202
-3/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/base/exscale.sty
+(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/extsizes/size14.clo
+File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /home/andrey/local/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/base/exscale.sty
 Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
 LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
@@ -66,19 +59,14 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-)
-(../preamble.tex
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
+) (../preamble.tex (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-)
-(/home/andrey/local/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count191
@@ -93,8 +81,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen147
 \Gm@layoutvoffset=\dimen148
 \Gm@dimlist=\toks18
-)
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks19
 \inpenc@posthook=\toks20
@@ -104,14 +91,9 @@ Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
 ) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-)
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.sty
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.
-sty (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.sty (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2023-08-29 L3 programming layer (loader) 
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-luate
-x.def
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
 File: l3backend-luatex.def 2023-04-19 L3 backend support: PDF output (LuaTeX)
 \l__color_backend_stack_int=\count194
 Inserting `l3color' in `luaotfload.parse_color'.
@@ -120,11 +102,8 @@ Inserting `l3color' in `luaotfload.parse_color'.
 Package: xparse 2023-08-29 L3 Experimental document command parser
 )
 Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
-Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec-luatex.
-sty
-Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaT
-eX
+Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 \l__fontspec_script_int=\count195
 \l__fontspec_language_int=\count196
 \l__fontspec_strnum_int=\count197
@@ -141,12 +120,9 @@ eX
 \l__fontspec_tmpc_dim=\dimen151
  (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-)
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
-(/home/andrey/local/texlive/2023/texmf-dist/tex/generic/babel/babel.sty
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2023/08/29 v3.93 The Babel package
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/generic/babel/luababel.def
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/babel/luababel.def
 \bbl@readstream=\read2
 \l@dumylang=\language2
 Package babel Info: Non-standard hyphenation setup on input line 118.
@@ -241,32 +217,20 @@ Package babel Info: Non-standard hyphenation setup on input line 118.
 \babel@savecnt=\count272
 \U@D=\dimen152
 \l@unhyphenated=\language88
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/generic/babel/luababel.def
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/babel/luababel.def
 \bbl@attr@locale=\attribute4
-)
-(/home/andrey/local/texlive/2023/texmf-dist/tex/generic/babel-russian/russianb.
-ldf
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/babel-russian/russianb.ldf
 File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
 Language: russian 2020/09/09 1.3k Russian support for the Babel system
 Package babel Info: Making " an active character on input line 124.
 Package babel Info: Default for \cyrdash is provided on input line 163.
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/generic/hyph-utf8/loadhyph/load
-hyph-ru.tex UTF-8 Russian hyphenation patterns
-(/home/andrey/local/texlive/2023/texmf-dist/tex/generic/hyph-utf8/patterns/tex/
-hyph-ru.tex))))
-(/home/andrey/local/texlive/2023/texmf-dist/tex/generic/babel/locale/ru/babel-r
-ussian.tex
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-ru.tex UTF-8 Russian hyphenation patterns (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-ru.tex)))) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/babel/locale/ru/babel-russian.tex
 Package babel Info: Importing font and identification data for russian
 (babel)             from babel-ru.ini. Reported on input line 11.
 )
-luaotfload | cache : Lookup cache loaded from /home/andrey/local/texlive/2023/te
-xmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
-luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn
- with language dflt
+luaotfload | cache : Lookup cache loaded from /home/andrey/local/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
 
 Package fontspec Info: Font family 'CMUSerif(0)' created for font 'CMU Serif'
 (fontspec)             with options [Ligatures=TeX].
@@ -276,33 +240,23 @@ Package fontspec Info: Font family 'CMUSerif(0)' created for font 'CMU Serif'
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
 (fontspec)             <->"CMUSerif:mode=node;script=latn;language=dflt;+tlig;"
-
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"CMUSerif:mode=node;script=latn;language=dflt;+tlig;+
-smcp;"
+(fontspec)             <->"CMUSerif:mode=node;script=latn;language=dflt;+tlig;+smcp;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"CMUSerif/B:mode=node;script=latn;language=dflt;+tlig
-;"
+(fontspec)             <->"CMUSerif/B:mode=node;script=latn;language=dflt;+tlig;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"CMUSerif/B:mode=node;script=latn;language=dflt;+tlig
-;+smcp;"
+(fontspec)             <->"CMUSerif/B:mode=node;script=latn;language=dflt;+tlig;+smcp;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"CMUSerif/I:mode=node;script=latn;language=dflt;+tlig
-;"
+(fontspec)             <->"CMUSerif/I:mode=node;script=latn;language=dflt;+tlig;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"CMUSerif/BI:mode=node;script=latn;language=dflt;+tli
-g;"
+(fontspec)             <->"CMUSerif/BI:mode=node;script=latn;language=dflt;+tlig;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-luaotfload | aux : font no 34 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 35 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 36 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 37 (nil) does not define feature smcp for script latn
- with language dflt
+luaotfload | aux : font no 34 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 35 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 36 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 37 (nil) does not define feature smcp for script latn with language dflt
 
 Package fontspec Info: Font family 'CMUSansSerif(0)' created for font 'CMU
 (fontspec)             Sans Serif' with options [Ligatures=TeX].
@@ -311,42 +265,32 @@ Package fontspec Info: Font family 'CMUSansSerif(0)' created for font 'CMU
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"CMUSansSerif:mode=node;script=latn;language=dflt;+tl
-ig;"
+(fontspec)             <->"CMUSansSerif:mode=node;script=latn;language=dflt;+tlig;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"CMUSansSerif/B:mode=node;script=latn;language=dflt;+
-tlig;"
+(fontspec)             <->"CMUSansSerif/B:mode=node;script=latn;language=dflt;+tlig;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"CMUSansSerif/I:mode=node;script=latn;language=dflt;+
-tlig;"
+(fontspec)             <->"CMUSansSerif/I:mode=node;script=latn;language=dflt;+tlig;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"CMUSansSerif/BI:mode=node;script=latn;language=dflt;
-+tlig;"
+(fontspec)             <->"CMUSansSerif/BI:mode=node;script=latn;language=dflt;+tlig;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-luaotfload | aux : font no 44 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 45 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 46 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 47 (nil) does not define feature smcp for script latn
- with language dflt
+luaotfload | aux : font no 44 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 45 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 46 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 47 (nil) does not define feature smcp for script latn with language dflt
 
 Package fontspec Info: Font family 'CMUTypewriterText(0)' created for font
 (fontspec)             'CMU Typewriter Text' with options
-(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=Word
-Space].
+(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=WordSpace].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"CMUTypewriterText:mode=node;script=latn;language=dfl
-t;"
+(fontspec)             <->"CMUTypewriterText:mode=node;script=latn;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
@@ -354,8 +298,7 @@ t;"
 (fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"CMUTypewriterText/B:mode=node;script=latn;language=d
-flt;"
+(fontspec)             <->"CMUTypewriterText/B:mode=node;script=latn;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
@@ -363,8 +306,7 @@ flt;"
 (fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"CMUTypewriterText/I:mode=node;script=latn;language=d
-flt;"
+(fontspec)             <->"CMUTypewriterText/I:mode=node;script=latn;language=dflt;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
@@ -372,8 +314,7 @@ flt;"
 (fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"CMUTypewriterText/BI:mode=node;script=latn;language=
-dflt;"
+(fontspec)             <->"CMUTypewriterText/BI:mode=node;script=latn;language=dflt;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
@@ -381,25 +322,21 @@ dflt;"
 (fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
 (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
 \ex@=\dimen153
-))
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen154
-)
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count273
@@ -449,19 +386,16 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-)
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/amscls/amsthm.sty
+)) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks26
 \thm@bodyfont=\toks27
@@ -472,11 +406,9 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@postskip=\skip54
 \thm@headsep=\skip55
 \dth@everypar=\toks31
-)
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/mathtools/mathtools.sty
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count285
 \calc@Bcount=\count286
@@ -488,8 +420,7 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count287
 \calc@Cskip=\skip58
-)
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/mathtools/mhsetup.sty
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 \g_MT_multlinerow_int=\count288
@@ -503,45 +434,35 @@ Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 \l_MT_below_shortintertext_sep=\dimen170
 \xmathstrut@box=\box54
 \xmathstrut@dim=\dimen171
-)
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/thmtools/thmtools.sty
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/thmtools/thmtools.sty
 Package: thmtools 2023/05/04 v0.76
 \thmt@toks=\toks32
 \c@thmt@dummyctr=\count289
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/thmtools/thm-patch.sty
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/thmtools/thm-patch.sty
 Package: thm-patch 2023/05/04 v0.76
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/thmtools/parseargs.sty
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/thmtools/parseargs.sty
 Package: parseargs 2023/05/04 v0.76
 \@parsespec=\toks33
-))
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/thmtools/thm-kv.sty
+)) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/thmtools/thm-kv.sty
 Package: thm-kv 2023/05/04 v0.76
 Package thm-kv Info: Theorem names will be uppercased on input line 42.
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
 Package thm-kv Info: kvsetkeys patch (v1.16 or later) on input line 158.
-) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/thmtools/thm-autoref.st
-y
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/thmtools/thm-autoref.sty
 Package: thm-autoref 2023/05/04 v0.76
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/thmtools/aliasctr.sty
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/thmtools/aliasctr.sty
 Package: aliasctr 2023/05/04 v0.76
-))
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/thmtools/thm-listof.sty
+)) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/thmtools/thm-listof.sty
 Package: thm-listof 2023/05/04 v0.76
-)
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/thmtools/thm-restate.sty
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/thmtools/thm-restate.sty
 Package: thm-restate 2023/05/04 v0.76
 ) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/thmtools/thm-amsthm.sty
 Package: thm-amsthm 2023/05/04 v0.76
 \thmt@style@headstyle=\toks34
-)) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/mathdots/mathdots.st
-y
-Package: mathdots 2014/06/11 v0.9 Improve and add various macros for dots in ma
-th.
+)) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/mathdots/mathdots.sty
+Package: mathdots 2014/06/11 v0.9 Improve and add various macros for dots in math.
 \MDo@unit=\dimen172
 \MDo@dotsbox=\box55
 \MDoprekern=\muskip17
@@ -555,15 +476,12 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box56
 \enit@count@id=\count290
 \enitdp@description=\count291
-)
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/environ/environ.sty
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
-
 \f@nch@headwidth=\skip61
 \f@nch@O@elh=\skip62
 \f@nch@O@erh=\skip63
@@ -578,33 +496,25 @@ Package: import 2020/04/01  v 6.2
 )
 (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/xifthen/xifthen.sty
 Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-)
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
-))
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+)) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
 \ESO@tempdima=\dimen174
 \ESO@tempdimb=\dimen175
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: luatex.def on input line 227.
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/graphics-def/luatex.def
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/graphics-def/luatex.def
 File: luatex.def 2022/09/22 v1.2d Graphics/color driver for luatex
-)
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -616,14 +526,11 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 )) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-)
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: luatex.def on input line 107.
@@ -645,20 +552,195 @@ File: ppluatex.def 2022/12/19 v0.5x Pdfpages driver for LuaTeX (AM)
 \AM@lof@heading=\toks38
 \c@AM@survey=\count294
 \AM@templatesizebox=\box58
-)
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/transparent/transparent.s
-ty
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/transparent/transparent.sty
 Package: transparent 2022-10-27 v1.5 Transparency with color stacks
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/transparent/transparent-n
-ometadata.sty
-Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color
- stack (HO)
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/transparent/transparent-nometadata.sty
+Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color stack (HO)
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-))))
-(./problem1.aux)
+))) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks39
+\pgfutil@tempdima=\dimen181
+\pgfutil@tempdimb=\dimen182
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box59
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks40
+\pgfkeys@temptoks=\toks41
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks42
+))
+\pgf@x=\dimen183
+\pgf@y=\dimen184
+\pgf@xa=\dimen185
+\pgf@ya=\dimen186
+\pgf@xb=\dimen187
+\pgf@yb=\dimen188
+\pgf@xc=\dimen189
+\pgf@yc=\dimen190
+\pgf@xd=\dimen191
+\pgf@yd=\dimen192
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count295
+\c@pgf@countb=\count296
+\c@pgf@countc=\count297
+\c@pgf@countd=\count298
+\t@pgf@toka=\toks43
+\t@pgf@tokb=\toks44
+\t@pgf@tokc=\toks45
+\pgf@sys@id@count=\count299
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-luatex.def
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.def
+File: pgfsys-luatex.def 2023-01-15 v3.1.10 (3.1.10)
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count300
+\pgfsyssoftpath@bigbuffer@items=\count301
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen193
+\pgfmath@count=\count302
+\pgfmath@box=\box60
+\pgfmath@toks=\toks46
+\pgfmath@stack@operand=\toks47
+\pgfmath@stack@operation=\toks48
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
+(/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count303
+)) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen194
+\pgf@picmaxx=\dimen195
+\pgf@picminy=\dimen196
+\pgf@picmaxy=\dimen197
+\pgf@pathminx=\dimen198
+\pgf@pathmaxx=\dimen199
+\pgf@pathminy=\dimen256
+\pgf@pathmaxy=\dimen257
+\pgf@xx=\dimen258
+\pgf@xy=\dimen259
+\pgf@yx=\dimen260
+\pgf@yy=\dimen261
+\pgf@zx=\dimen262
+\pgf@zy=\dimen263
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen264
+\pgf@path@lasty=\dimen265
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen266
+\pgf@shorten@start@additional=\dimen267
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box61
+\pgf@hbox=\box62
+\pgf@layerbox@main=\box63
+\pgf@picture@serial@count=\count304
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen268
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen269
+\pgf@pt@y=\dimen270
+\pgf@pt@temp=\dimen271
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen272
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen273
+\pgf@sys@shading@range@num=\count305
+\pgf@shadingcount=\count306
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box64
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box65
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen274
+\pgf@nodesepend=\dimen275
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen276
+\pgffor@skip=\dimen277
+\pgffor@stack=\toks49
+\pgffor@toks=\toks50
+)) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count307
+\pgfplotmarksize=\dimen278
+)
+\tikz@lastx=\dimen279
+\tikz@lasty=\dimen280
+\tikz@lastxsaved=\dimen281
+\tikz@lastysaved=\dimen282
+\tikz@lastmovetox=\dimen283
+\tikz@lastmovetoy=\dimen284
+\tikzleveldistance=\dimen285
+\tikzsiblingdistance=\dimen286
+\tikz@figbox=\box66
+\tikz@figbox@bg=\box67
+\tikz@tempbox=\box68
+\tikz@tempbox@bg=\box69
+\tikztreelevel=\count308
+\tikznumberofchildren=\count309
+\tikznumberofcurrentchild=\count310
+\tikz@fig@count=\count311
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count312
+\pgfmatrixcurrentcolumn=\count313
+\pgf@matrix@numberofcolumns=\count314
+)
+\tikz@expandcount=\count315
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/home/andrey/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (./problem1.aux)
 \openout1 = problem1.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -670,10 +752,8 @@ LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6
-.
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6.
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 6.
@@ -700,15 +780,15 @@ LaTeX Font Info:    ... okay on input line 6.
 * \textheight=722.18698pt
 * \oddsidemargin=-28.90756pt
 * \evensidemargin=-28.90756pt
-* \topmargin=-47.84006pt
-* \headheight=12.0pt
+* \topmargin=-49.84006pt
+* \headheight=14.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=14.0pt
 * \footskip=30.0pt
-* \marginparwidth=35.0pt
+* \marginparwidth=24.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -757,81 +837,71 @@ LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/CMUSerif(0)/m/n on input line 6.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/CMUSerif(0)/m/n --> TU/CMUSerif(0)/m/n on input line
- 6.
+(Font)                  TU/CMUSerif(0)/m/n --> TU/CMUSerif(0)/m/n on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/CMUSerif(0)/m/it on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/CMUSerif(0)/b/n on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/CMUSansSerif(0)/m/n on input line 6
-.
+(Font)                  OT1/cmss/m/n --> TU/CMUSansSerif(0)/m/n on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/CMUTypewriterText(0)/m/n on input l
-ine 6.
+(Font)                  OT1/cmtt/m/n --> TU/CMUTypewriterText(0)/m/n on input line 6.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/CMUSerif(0)/m/n --> TU/CMUSerif(0)/b/n on input line
- 6.
+(Font)                  TU/CMUSerif(0)/m/n --> TU/CMUSerif(0)/b/n on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/CMUSerif(0)/b/it on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/CMUSansSerif(0)/b/n on input line 
-6.
+(Font)                  OT1/cmss/bx/n --> TU/CMUSansSerif(0)/b/n on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/CMUTypewriterText(0)/b/n on input l
-ine 6.
+(Font)                  OT1/cmtt/m/n --> TU/CMUTypewriterText(0)/b/n on input line 6.
 LaTeX Info: Redefining \th on input line 6.
-
 (/home/andrey/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count295
-\scratchdimen=\dimen181
-\scratchbox=\box59
-\nofMPsegments=\count296
-\nofMParguments=\count297
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count298
-\MPscratchDim=\dimen182
-\MPnumerator=\count299
-\makeMPintoPDFobject=\count300
-\everyMPtoPDFconversion=\toks40
-)
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-bas
-e.sty
+\scratchcounter=\count316
+\scratchdimen=\dimen287
+\scratchbox=\box70
+\nofMPsegments=\count317
+\nofMParguments=\count318
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count319
+\MPscratchDim=\dimen288
+\MPnumerator=\count320
+\makeMPintoPDFobject=\count321
+\everyMPtoPDFconversion=\toks52
+) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.
-cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape-nomet
-adata.sty
-Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
-F (HO)
-
-(/home/andrey/local/texlive/2023/texmf-dist/tex/latex/graphics/lscape.sty
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-LaTeX Font Info:    Font shape `TU/CMUSerif(0)/m/sl' in size <12> not available
+LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
+ (/home/andrey/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (15.62889pt too wide) in paragraph at lines 35--39
+\OML/cmm/m/it/14.4 BL$ \TU/CMUSerif(0)/m/n/14.4 intersects external bisectors of angles $\OML/cmm/m/it/14.4 A$ \TU/CMUSerif(0)/m/n/14.4 and $\OML/cmm/m/it/14.4 C$ \TU/CMUSerif(0)/m/n/14.4 at points $\OML/cmm/m/it/14.4 P$ \TU/CMUSerif(0)/m/n/14.4 and $\OML/cmm/m/it/14.4 Q$ \TU/CMUSerif(0)/m/n/14.4 respectively.
+ []
 
-(Font)              Font shape `TU/CMUSerif(0)/m/it' tried instead on input lin
-e 14.
+LaTeX Font Info:    Font shape `TU/CMUSerif(0)/m/sl' in size <14.4> not available
+(Font)              Font shape `TU/CMUSerif(0)/m/it' tried instead on input line 41.
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 17.34604pt, for example:
-(fancyhdr)                \setlength{\headheight}{17.34604pt}.
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 20.98405pt, for example:
+(fancyhdr)                \setlength{\headheight}{20.98405pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-5.34604pt}.
+(fancyhdr)                \addtolength{\topmargin}{-6.98405pt}.
 
 [1{/home/andrey/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -843,22 +913,19 @@ L3 programming layer <2023-08-29>
 )
 
 Here is how much of LuaTeX's memory you used:
- 10368 strings out of 477259
+ 20534 strings out of 477259
  100000,1977958 words of node,token memory allocated
- 559 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 10 attribute, 59 glue_spec
-, 7 attribute_list, 1 write nodes
-   avail lists: 1:1,2:231,3:32,4:18,5:48,6:16,7:192,9:112,10:4
- 31376 multiletter control sequences out of 65536+600000
- 50 fonts using 11045247 bytes
- 84i,12n,92p,317b,321s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/andrey/local/texlive/2023/texmf-dist/fonts/opentype/public/cm-unicode/cmu
-nbx.otf></home/andrey/local/texlive/2023/texmf-dist/fonts/opentype/public/cm-uni
-code/cmunss.otf>
-Output written on problem1.pdf (1 page, 4998 bytes).
+ 568 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 12 attribute, 59 glue_spec, 8 attribute_list, 2 write nodes
+   avail lists: 1:1,2:495,3:83,4:30,5:338,6:22,7:2790,8:9,9:176,10:4
+ 41196 multiletter control sequences out of 65536+600000
+ 71 fonts using 13235903 bytes
+ 89i,12n,92p,433b,348s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/andrey/local/texlive/2023/texmf-dist/fonts/opentype/public/cm-unicode/cmunrm.otf></home/andrey/local/texlive/2023/texmf-dist/fonts/opentype/public/cm-unicode/cmunbx.otf></home/andrey/local/texlive/2023/texmf-dist/fonts/opentype/public/cm-unicode/cmunsx.otf></home/andrey/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></home/andrey/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/andrey/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/andrey/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/andrey/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on problem1.pdf (1 page, 53686 bytes).
 
-PDF statistics: 22 PDF objects out of 1000 (max. 8388607)
- 12 compressed objects within 1 object stream
+PDF statistics: 52 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
- 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

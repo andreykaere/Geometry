@@ -1,6 +1,7 @@
 % \documentclass[a4paper,12pt]{article}
 
 \usepackage[a4paper, left=0.6in, right=0.6in, top=0.85in, bottom=0.85in]{geometry}
+% \usepackage[a5paper, left=0.3in, right=0.3in, top=0.85in, bottom=0.85in]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage{textcomp}
 \usepackage{fontspec}
@@ -49,7 +50,7 @@
 }%
 
 
-\fancyhead[L]{\fontsize{18}{20} \@title}
+\fancyhead[L]{{\fontsize{22}{24} \bfseries\sffamily  \@title}}
 
 
 % figure support
@@ -72,5 +73,19 @@
   \begin{enumerate}[leftmargin=1cm, label={\textbf{\arabic*.}}, itemsep=0.3cm]%
 }{%
   \end{enumerate}%
+}
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+\newcommand{\arc}[0]{
+   \tikz [baseline = (N.base), every node/.style={}] {
+	  \node [inner sep = 0pt] (N){}; %{$#0$};
+      \draw [line width = 0.8pt] plot [smooth, tension=1.3] coordinates {
+         ($(N.north west) + (-1.5ex,0.6ex+0.4ex)$)
+         ($(N.north)      + (-0.75ex,0+0.4ex)$)
+         ($(N.north east) + (0ex,0.6ex+0.4ex)$)
+      };
+   }
 }
 
